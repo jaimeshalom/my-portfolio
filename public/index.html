@@ -81,6 +81,24 @@
             <img class="img-fluid" src="assets/img/portfolio-400/bible-strong-offline.png" alt="..." />
           </div>
         </div>
+        <!-- Portfolio Item 4-->
+        <div class="col-md-6 col-lg-4 mb-5 ">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio-400/bible_api_graphiql_1.png" alt="..." />
+          </div>
+        </div>
+        <!-- Portfolio Item 5-->
+        <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/jaimeshalom.github.io_todo-practice_2.png" alt="..." />
+          </div>
+        </div>
         <!-- Portfolio Item 2-->
         <div class="col-md-6 col-lg-4 mb-5">
           <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
@@ -99,24 +117,6 @@
             <img class="img-fluid" src="assets/img/portfolio-400/www.humor12.com_1.png" alt="..." />
           </div>
         </div>
-        <!-- Portfolio Item 4-->
-        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
-            <img class="img-fluid" src="assets/img/portfolio-400/bible_api_graphiql_1.png" alt="..." />
-          </div>
-        </div>
-        <!-- Portfolio Item 5-->
-        <!-- <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
-            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
-          </div>
-        </div> -->
         <!-- Portfolio Item 6-->
         <!-- <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
@@ -434,9 +434,8 @@
                 <!-- Portfolio Modal - Text-->
                 <p class="mb-4">API GraphQL del proyecto <a
                     href="https://play.google.com/store/apps/details?id=com.biblestrongoffline&hl=es-419"
-                    target="_blank">Bible Strong Offline</a>, escrita en TypeScript, para este proyecto al ser
-                  construido desde cero se utilizó
-                  Fastify para aprovechar el rendimiento que brinda este Framework NodeJS en el BackEnd en comparación
+                    target="_blank">Bible Strong Offline</a>, escrita en TypeScript, en éste proyecto se utilizó
+                  Fastify para aprovechar el rendimiento que brinda este Framework BackEnd de NodeJS en comparación
                   con opciones más
                   populares como ExpressJS, la
                   base de
@@ -451,7 +450,7 @@
                   biblioteca
                   OIDC-Provider para la seguridad de la API y gestión de los futuros clientes móviles y web.</p>
                 <p>
-                  La API está por ser integrada con la App, pero la documentación se puede acceder desde el <a
+                  La API está por ser integrada con la App, y la documentación se puede acceder desde el <a
                     href="https://bible-api-staging.apuntedigital.com/graphiql" target="_blank">GraphiQL del despliegue
                     del entorno staging</a>, como muestra de las ventajas de la autodocumentación de las APIs GraphiQL.
                 </p>
@@ -486,12 +485,14 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image-->
-                <img data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abrir Proyecto"
-                  class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                <a href="https://jaimeshalom.github.io/todo-practice/" target="_blank">
+                  <img data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abrir Proyecto"
+                    class="img-fluid rounded mb-5" src="assets/img/portfolio/jaimeshalom.github.io_todo-practice_2.png"
+                    alt="..." />
+                </a>
                 <!-- Portfolio Modal - Text-->
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-4">Pequeño proyecto de una lista de tareas realizado en React y alojado en el siguiente <a
+                    href="https://github.com/jaimeshalom/todo-practice" target="_blank"> repositorio de github.</a></p>
                 <button class="btn btn-primary" data-bs-dismiss="modal">
                   <i class="fas fa-xmark fa-fw"></i>
                   Close Window
@@ -504,7 +505,7 @@
     </div>
   </div>
   <!-- Portfolio Modal 6-->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
     aria-hidden="true">
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
@@ -515,31 +516,31 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title-->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon"><i class="fa-solid fa-terminal"></i></div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image-->
-                <img data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abrir Proyecto"
-                  class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                <!-- Portfolio Modal - Text-->
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" data-bs-dismiss="modal">
-                  <i class="fas fa-xmark fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+  <!-- Icon Divider-->
+  <div class="divider-custom">
+    <div class="divider-custom-line"></div>
+    <div class="divider-custom-icon"><i class="fa-solid fa-terminal"></i></div>
+    <div class="divider-custom-line"></div>
   </div>
+  <!-- Portfolio Modal - Image-->
+  <img data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abrir Proyecto" class="img-fluid rounded mb-5"
+    src="assets/img/portfolio/submarine.png" alt="..." />
+  <!-- Portfolio Modal - Text-->
+  <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+    nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
+    Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+  <button class="btn btn-primary" data-bs-dismiss="modal">
+    <i class="fas fa-xmark fa-fw"></i>
+    Close Window
+  </button>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div> -->
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Core theme JS-->
